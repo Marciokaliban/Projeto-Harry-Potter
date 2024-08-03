@@ -1,0 +1,21 @@
+@media(max-width:650px){
+    .header {
+        flex-direction: column;
+    }
+    .cabecalho{
+        font-size: 40px;
+        flex-direction: column;
+    }
+    .cabecalho-link {
+        flex-direction: column;
+       
+    }
+
+    .cabecalho-link a {
+        font-size: 40px;
+    }
+
+    .titulo {
+        color: aliceblue;
+    }
+}

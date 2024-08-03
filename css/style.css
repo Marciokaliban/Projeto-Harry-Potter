@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&family=Saira+Condensed:wght@100&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url("../images/harry-potter.webp");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    align-items: center;
+}
+
+.cabecalho-logo h1{ 
+    font-family: "Saira", sans-serif;
+    font-size: 48px;
+    color: red;
+}
+
+.cabecalho-link{
+    display: flex; 
+    gap: 70px;
+    
+} 
+
+.cabecalho-link a {
+    display: flex;
+    font-size: 25px;
+    color: red; 
+    transition: 0.3s ease-in-out;  
+    
+}
+
+.cabecalho-link a:hover{
+    background-color:cadetblue;
+    padding: 12px;
+    border-radius: 9px;
+}
+
+button {
+    color: aliceblue;
+    background-color: #0E3438;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 22px;
+    border: none;    
+    transition: 0.2s ease-in-out;  
+}
+
+button:hover {
+    background-color:cadetblue;
+}
+
+.section-1 {
+    padding: 30px;
+    
+}
+
+.section-1 h1 {
+    font-size: 70px;
+    font-family: 'Saira:ital';
+    margin-bottom: 25px;
+    
+}
+
+.titulo p {
+    font-size: 30px;
+    font-family: "saira:ital";
+    color: rgb(221, 234, 214);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: #0E3438;
+    font-family: "saira:ital";
+    font-size: 22px;
+    border: none;
+}
